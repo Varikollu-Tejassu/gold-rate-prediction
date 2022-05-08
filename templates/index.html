@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='main.css')}}" >
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel='icon' href="{{url_for('static',filename='favicon.ico')}}" type='image/x-icon'/ >    
+
+</head>
+<body>
+    
+    <div class="head">
+        <h1 >GOLD PRICE PREDICTION </h1>
+    </div><hr>
+    <br>
+    <div class="bg">
+    <img src="{{url_for('static', filename='gold3.jpg')}}" align="middle" />
+    
+    </div>
+    <br>
+    <div class="top">
+        <h2>Most price forecasts aren't worth more than an umbrella in a hurricane. There are so many factors, so many ever-changing variables, that even the experts usually miss the mark.</h2><br>
+
+           <h2> Further, some forecasters base their predictions on one issue. “Interest rates will rise so gold will fall.” That’s not even an accurate statement, let alone a sensible prediction (it’s the real rate that matters to gold).</h2><br>
+            
+           <h2>But there is value in considering predictions. It can solidify why one has invested, point to factors that may have been overlooked, or even cause one to revise their expectations.</h2><br>
+        
+    </div>
+    <div class="VJ"  >
+        <form  action="/output" method="POST">
+            <label for="formc">COUNTRY:</label><br>
+            <select id="formc" name="formc">
+                <option value="india">INDIA</option>
+                <option value="usa">USA</option>
+                <option value="europe">EUROPE</option>
+                <option value="canada">CANADA</option>
+                <option value="australia">AUSTRALIA</option>
+
+            </select><br><br>
+            <label for="formd">DAY:</label><br>
+            <input type="number" placeholder="Enter day" name="formd" min="1" max="30" required> <br> <br>
+            <label for="formM">MONTH:</label><br>
+            
+            <input type="number" placeholder="Enter month" name="formm" min="1" max="12" required> <br><br>
+            <label for="formY">YEAR:</label><br>
+            <input type="year" placeholder="Enter year" name="formy" required minlength="4" maxlength="4" ><br><br>
+            <input type="submit" value="PREDICT">
+        </form>
+    
+          <h2 class="con">CONNECT WITH ME ON:</h2>
+        <div class="tooltip">
+            <span class="tiptext">facebook</span> <a href="https://www.facebook.com/varikollu.tejassu"><i class="fa fa-facebook fa-2x sym1" aria-hidden="true"></i></a></div>
+        <div class="tooltip">
+        <span class="tiptext">Instagram</span>  <a href="https://www.instagram.com/v_tejassu/"><i class="fa fa-instagram fa-2x sym2" aria-hidden="true"></i></a></div>
+        <div class="tooltip">
+        <span class="tiptext">Whatsapp</span> <a href="https://wa.me/+919347617450?text=Hi"><i class="fa fa-whatsapp fa-2x sym3" aria-hidden="true"></i></a></div>
+        <div class="tooltip">
+       <span class="tiptext">Twitter</span>  <a href="https://mobile.twitter.com/TejassuV" ><i class="fa fa-twitter fa-2x sym4" aria-hidden="true"></i></a></div>
+       <div class="tooltip">
+         <span class="tiptext">Youtube</span> <a href="https://www.youtube.com/channel/UC4T-aawNNmfMl7zebf-w7sg"><i class="fa fa-youtube-play fa-2x sym5" aria-hidden="true"></i></a></div>
+      </div><br><br>
+      
+      <p >Thank You For Visiting</p><br>
+  
+     <br>
+      <p > &copy; 2022 All Rights Reserved</p>
+      <br>
+      <hr style="border-color:white;">
+      <hr style="border-color:white;">
+      <br>
+      
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <link rel='icon' href="{{url_for('static',filename='favicon.ico')}}" type='image/x-icon'/ > 
+    <link rel="stylesheet" href="{{url_for('static',filename='output.css')}}" >   
+</head>
+<body>
+    <div class="head">
+        <h1 >GOLD PRICE PREDICTION </h1>
+    </div><hr>
+    <br>
+<marquee> THESE PRICES ARE JUST PREDICTIONS NOT REAL GOLD PRICE VALUE IN THE MARKET.</marquee><br><br>
+<img src="{{url_for('static', filename='gold2.jpeg')}}" align="middle" /> <br>
+    <div class="out">
+
+       <h1> {% if formd %}
+        ON {{formd}}
+        {% endif %} -{% if formm %} {{formm}} {% endif %} -{% if formy %} {{formy}} {% endif %}</h1><br>
+       <h1>The price of gold in {% if formc %} {{formc}} {% endif %}is:</h1><br>
+        
+       
+       <h1>{% if predi %}{{predi}} {% endif %} 
+        {% if focu %} {{focu}} {% endif %} </h1><br>
+       <h1>i.e {% if ind_rs %} {{ind_rs}} {% endif %}
+    </h1>
+    </div>
+    <div class="but">
+        <form action="/" method="POST">
+        <input type="submit" value="PREDICT OTHER" >
+        </form>
+    </div>
+    <br>
+      <hr style="border-color:white;">
+      <hr style="border-color:white;">
+      <br>
+    
+</body>
+</html>

@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color:rgb(63, 107, 194);
+}
+.head{
+    align-items: center;
+    height: 60px;
+    background-color:rgb(63, 107, 194);
+   
+
+}
+.head h1{
+    color:white;
+    text-decoration: dashed;
+    padding-top: 8px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+}
+img{
+    height:400px;
+    width:97%;
+    border-radius: 10px;
+    margin-left: 17px;
+}
+.top{
+    color: aliceblue;
+
+
+}
+.top h2{
+    padding-left: 35px;
+    font-weight: bold;
+}
+.VJ{
+    width: 50%;
+    height: auto;
+    margin-left: 23%;
+    background-color:white;
+    color:black;
+    border: 2px black;
+    border-radius: 8px;
+    
+
+}
+
+.VJ:hover{
+    box-shadow: 2px 3px 6px;
+
+}
+label{
+    color: rgb(63, 107, 194)
+}
+form{
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom:30px ;
+}
+input{
+    width:50%;
+    color: rgb(63, 107, 194);
+    box-shadow:  inset 1px 1px 1px;
+    text-align: center;
+    height: 25px;
+
+
+}
+input[type="submit"]{
+    height: 30px;
+    width: 25%;
+    background-color:rgb(63, 107, 194);
+    color: white;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    box-shadow:   1px 1px 1px aqua ; 
+}
+select{
+    width: 50%;
+    height:30px;
+    box-shadow:  inset 3px 3px 1px black;
+    text-align: center;
+    color:rgb(63, 107, 194)
+}
+.con{
+    text-align: center;
+    color: rgb(63, 107, 194);
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: -2px;
+    
+}
+
+.sym1,.sym2,.sym3,.sym4,.sym5{
+    font-size:400px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-right: 17px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-top: 5px;
+
+}
+.sym1{
+    color: cornflowerblue;
+    cursor: pointer;
+    
+}
+.sym2{
+color:red ;
+cursor: pointer;
+}
+.sym3{
+    color:green ;
+    cursor: pointer;
+}
+.sym4{
+    color:skyblue ;
+    cursor: pointer;
+}
+.sym5{
+    color:red ;
+     cursor: pointer;
+ }
+  
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    
+
+  }
+  
+  .tooltip .tiptext {
+    visibility: hidden;
+    width: 100px;;
+    background-color:white ;
+    color:rgb(63, 107, 194);
+    text-align: center;
+    border-radius: 6px;
+    font-weight:900;
+    padding-left: 5px;
+    padding-top: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    font-size: 20px;
+    margin-left:-38px;
+    
+  }
+
+  
+  .tooltip .tiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgb(63, 107, 194) transparent;
+  }
+  
+  .tooltip:hover .tiptext {
+    visibility: visible;
+  }
+  p{
+    text-align:center;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+
+
+  
