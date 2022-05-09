@@ -36,9 +36,9 @@ But there is value in considering predictions. It can solidify why one has inves
   </ol>
      
 # Demo
-         ![Screenshot (42)](https://user-images.githubusercontent.com/82580875/167332416-823f44e7-c20b-4ba0-8c2b-7d6b21071836.png)
-         ![Screenshot (40)](https://user-images.githubusercontent.com/82580875/167332446-170df5a2-7aeb-4ca5-bf23-1f193a7daabc.png)
-         ![Screenshot (41)](https://user-images.githubusercontent.com/82580875/167332473-98bcb4d7-c2a2-4729-903e-10b348bc2031.png)
+   ![Screenshot (42)](https://user-images.githubusercontent.com/82580875/167332416-823f44e7-c20b-4ba0-8c2b-7d6b21071836.png)
+  ![Screenshot (40)](https://user-images.githubusercontent.com/82580875/167332446-170df5a2-7aeb-4ca5-bf23-1f193a7daabc.png)
+  ![Screenshot (41)](https://user-images.githubusercontent.com/82580875/167332473-98bcb4d7-c2a2-4729-903e-10b348bc2031.png)
 
 
       
