@@ -1,6 +1,6 @@
-# gold-rate-prediction
+# Gold-rate-prediction
 
-gold-rate-prediction is a web application which is used to predict the future price of gold value by using machine learning models.
+Gold-rate-prediction is a web application which is used to predict the future price of gold value by using machine learning models.
 Most price forecasts aren't worth more than an umbrella in a hurricane. There are so many factors, so many ever-changing variables, that even the experts usually miss the mark.
 Further, some forecasters base their predictions on one issue. “Interest rates will rise so gold will fall.” That’s not even an accurate statement, let alone a sensible prediction (it’s the real rate that matters to gold).
 But there is value in considering predictions. It can solidify why one has invested, point to factors that may have been overlooked, or even cause one to revise their expectations.
@@ -12,7 +12,7 @@ But there is value in considering predictions. It can solidify why one has inves
     5. ElasticNet <br>
     <h3>
 
-# about the dataset
+# About the dataset
  <ul>
 <li>The gold rates from 29-12-1978 to 10-09-2020 present in this dataset.</li>
 <li>The rates are calculated in 1 troy ounce, ie in 31.1034768 grams.</li>
