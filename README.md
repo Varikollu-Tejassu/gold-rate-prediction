@@ -42,4 +42,4 @@ But there is value in considering predictions. It can solidify why one has inves
       
 # Team
   VARIKOLLU TEJASSU
-   https://www.linkedin.com/in/varikollu-tejassu-56867b1ab/
+   https://www.linkedin.com/in/vtejassu/
