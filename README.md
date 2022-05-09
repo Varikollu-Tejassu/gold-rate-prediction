@@ -31,14 +31,16 @@ But there is value in considering predictions. It can solidify why one has inves
   <li>Scikit-learn</li> 
   <li>HTML</li> 
   <li>CSS</li> 
-  <li>FLASK</li> 
+  <li>FLASK</li>
+
   </ol>
      
 # Demo
+         ![Screenshot (42)](https://user-images.githubusercontent.com/82580875/167332416-823f44e7-c20b-4ba0-8c2b-7d6b21071836.png)
+         ![Screenshot (40)](https://user-images.githubusercontent.com/82580875/167332446-170df5a2-7aeb-4ca5-bf23-1f193a7daabc.png)
+         ![Screenshot (41)](https://user-images.githubusercontent.com/82580875/167332473-98bcb4d7-c2a2-4729-903e-10b348bc2031.png)
 
-![Screenshot (39)](https://user-images.githubusercontent.com/82580875/167327162-51b3297c-70c3-499f-8dbb-0ce89a120c11.png)
-![Screenshot (40)](https://user-images.githubusercontent.com/82580875/167327169-31060c11-c5d7-4bb9-95bb-a6c5eb15c48f.png)
-![Screenshot (41)](https://user-images.githubusercontent.com/82580875/167327406-8df19dd3-b15b-43f3-a6e1-4a86952b8d2e.png)
+
       
 # Team
   VARIKOLLU TEJASSU
