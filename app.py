@@ -35,7 +35,7 @@ def predict():
          lr=bz2.open("us.pkl.pbz2","rb") 
          sr= pickle.load(lr)
          prediction=sr.predict(data)[0]
-         focu="Euros/gram only"
+         focu="dollars/gram only"
          ind=float(prediction*76.52)
          ind = "{:.2f}".format(ind)
          ind=ind*10
